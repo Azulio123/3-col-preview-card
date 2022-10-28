@@ -1,0 +1,123 @@
+
+body {
+    text-align: left;
+    background-color: lightgray;
+
+}
+
+h1 {
+    margin: 1em 3em 1em .5em;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: left;
+}
+
+p {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 1em 3em 2em 1.3em;
+    padding: 0;
+    line-height: 1.8;
+    text-align: left;
+}
+
+/* Icons */
+
+svg {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+
+.content {
+    /*padding centers the whole contents */
+    padding: 7% 15%;   
+}
+
+.sedan-card {
+    background-color: #e28525;
+    width: 310px;
+    border-radius: 3% 0 0 3%;
+    
+}
+
+.SUV-card {
+    background-color: #016972;
+    width: 310px;
+}
+
+.luxury-card {
+    background-color:#00403f;
+    width: 310px;
+    border-radius: 0 3% 3% 0;
+}
+
+/* Buttons */
+
+.btn {
+   margin: 3rem 4rem 3rem 1.25rem;
+   border-radius: 25px;
+   border-width: 2px;
+   border-color: white;
+   font-family: 'Lexend Deca', sans-serif;
+   width: 150px;
+   background-color: white;
+   height: 45px;
+  }
+
+  .sedan-btn {
+    color:#e28525;
+  }
+
+  .SUV-btn {
+    color:#016972;
+  }
+
+  .lux-btn {
+    color: #00403f;
+  }
+
+.sedan-btn:hover {
+    background-color: #e28525;
+    color: white;
+    border-color: white;
+  }
+
+  .SUV-btn:hover {
+    background-color: #016972;
+    color: white;
+    border-color: white;
+  }
+
+  .lux-btn:hover {
+    background-color: #00403f;
+    color: white;
+    border-color: white;
+  }
+
+@media (max-width: 1000px) {
+
+    .sedan-card {
+        border-radius: 3% 3% 0 0;
+}
+
+    .luxury-card {
+        border-radius: 0 0 3% 3%;
+    }
+
+}
+
+/* Learning how to target tablet sized screens in order to make the bottom or LUXURY card the width of both the top cards when displayed on a tablet. Failed so far. Haha. 
+
+@media screen 
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1) { 
+    .luxury-card {
+        width: 620px;
+    }
+}
+ */  
+
