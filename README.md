@@ -71,10 +71,7 @@ Users should be able to:
 
   Being able to use the 'row' and 'col' properties effectively to align all the content properly was pretty huge for me.
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+CSS
 ```
 I am happy with the below CSS because I had just learning media queries in my bootcamp and was able to apply it well to 
 this project. I could only to it to a mobile view and am still testing to figure out how to apply it to a tablet view.
@@ -113,7 +110,6 @@ My bootcamp on Udemy! [https://www.udemy.com/course/the-complete-web-development
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@Azulio123](https://www.frontendmentor.io/profile/Azulio123)
 
 
